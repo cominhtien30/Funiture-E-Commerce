@@ -5,13 +5,12 @@
 
 <h4>Admin</h4>
 - Đăng Nhập bằng tài khoản của admin, sử dụng JWT, có kèm đăng nhập facebook.
-- ![image](https://user-images.githubusercontent.com/51897718/133476058-939816d6-08f4-4e6a-9888-dc16709719d9.png)
+![image](https://user-images.githubusercontent.com/51897718/133476058-939816d6-08f4-4e6a-9888-dc16709719d9.png)
 - Thêm xóa sửa danh sách sản phẩm, phân loại theo màu sắc và category
 ![image](https://user-images.githubusercontent.com/51897718/133476146-359fdfbf-dcef-4885-8451-5a19c7e6c97e.png)
 ![image](https://user-images.githubusercontent.com/51897718/133476196-d8f5e442-01b2-4e41-980f-4a0dca5ceb37.png)
 - Thêm xóa sữa color linh động
 ![image](https://user-images.githubusercontent.com/51897718/133476238-d4559107-f46c-4cd6-86bd-30dafb33632e.png)
-
 - Chức năng đổi màu nền
 ![image](https://user-images.githubusercontent.com/51897718/133476296-2e1b200c-4e51-4309-a467-de9248046ca9.png)
 - Cập nhật trạng thái đơn hàng
