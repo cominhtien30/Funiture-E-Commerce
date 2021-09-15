@@ -1,0 +1,39 @@
+{
+    "settings": {
+        "react": {
+            "version": "999.999.999" //fix loi eslint-plugin-react
+        }
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true // cho phep dung bien .env
+    },
+    "extends": [
+        "eslint:recommended",   
+        "prettier", //cho phep su dung prettier
+        "plugin:react/recommended"   //cho phep quy trac cua reactJS
+    ],
+    "parser": "babel-eslint",  // chi dinh babel
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": ["react", "prettier"],  //su dung plugin cua prettier va react
+    "rules": {
+        "react/jsx-filename-extension": [
+            1,
+            { "extensions": [".js", ".jsx"] }
+        ],
+       "prettier/prettier": [
+            "error", // notice error when prettier wrong
+            {
+              "endOfLine": "auto"
+            }
+          ]  , 
+        "react/prop-types": 0  //khong can kiem tra propstype
+    }
+}

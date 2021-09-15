@@ -1,0 +1,69 @@
+#Paypal {
+    position: fixed;
+    padding: 8px;
+    height: 449px;
+    width: 583px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9999999999;
+    .Paypal-title {
+        h1 {
+            text-align: center;
+            color: cornflowerblue;
+            font-weight: 500;
+        }
+    }
+    .Paypal-content {
+        .content-left {
+            float: left;
+            margin-left: 120px;
+            .span-left {
+                margin: 20px;
+            }
+        }
+        .content-right {
+            text-align: right;
+            margin-right: 130px;
+            padding-top: 2px;
+            .span-right {
+                margin: 20px;
+            }
+        }
+    }
+    .Paypal-button {
+        margin-top: 60px;
+        .button-print {
+            float: left;
+            margin-left: 207px;
+            button {
+                background-color: forestgreen;
+                color: white;
+                height: 50px;
+                border-radius: 10px;
+                width: 74px;
+                border: 1px;
+                font-size: 14px;
+                border: 1px solid forestgreen;
+            }
+        }
+        .button-close {
+            text-align: center;
+            margin-right: 94px;
+            button {
+                background-color: forestgreen;
+                color: white;
+                height: 50px;
+                border-radius: 10px;
+                width: 74px;
+                border: 1px;
+                font-size: 14px;
+                border: 1px solid forestgreen;
+                margin-right: 100px;
+            }
+        }
+    }
+}
