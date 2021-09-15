@@ -5,6 +5,7 @@
 
 <h4>Admin</h4>
 - Đăng Nhập bằng tài khoản của admin, sử dụng JWT, có kèm đăng nhập facebook.
+
 ![image](https://user-images.githubusercontent.com/51897718/133476058-939816d6-08f4-4e6a-9888-dc16709719d9.png)
 - Thêm xóa sửa danh sách sản phẩm, phân loại theo màu sắc và category
 ![image](https://user-images.githubusercontent.com/51897718/133476146-359fdfbf-dcef-4885-8451-5a19c7e6c97e.png)
